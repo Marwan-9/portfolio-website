@@ -1,0 +1,21 @@
+.project-card{
+    background-color: red;
+    width: 30%;
+}
+.project-card__title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.project-card__image{
+
+}
+
+.project-card__desc{
+    background-color: green;
+
+}
+.project-card__labels{
+    background-color: yellow;   
+}

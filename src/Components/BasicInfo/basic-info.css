@@ -1,0 +1,18 @@
+.basic-info__body{
+    border-left: 0.1rem white solid;
+    padding-left: 5%;
+    color: white;
+    padding-top: 0;
+    width: max-content;
+}
+
+.basic-info__name{
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.basic-info__job{
+    font-size: 1.25rem;
+    margin-top: 0.5%;
+}

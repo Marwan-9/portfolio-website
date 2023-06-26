@@ -1,0 +1,13 @@
+.main-section {
+  width: 65vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35vh;
+  align-self: center;
+  margin-bottom: 300px;
+}
+
+.main-section__picture {
+  scale:5;
+}
