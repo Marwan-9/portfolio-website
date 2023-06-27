@@ -4,6 +4,7 @@
   color: white;
   padding-top: 0;
   margin-top: 80%;
+  width: max-content;
 }
 
 .basic-info__name {
