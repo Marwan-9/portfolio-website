@@ -44,4 +44,9 @@
   font-weight: 600;
   cursor: pointer;
 }
-    
+
+.project-card__links__repo:hover,.project-card__links__site:hover{
+  color: black;
+  cursor: pointer;
+  text-shadow: 0 0 0.03rem black;
+}

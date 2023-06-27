@@ -4,7 +4,7 @@ const MainSection = () => {
     return(
         <div className="main-section">
             <BasicInfo/>
-            <img src="./pp.png" alt="profile picture" className="main-section__picture"/>
+            <img src="./pp2.png" alt="profile picture" className="main-section__picture"/>
         </div>
     ) 
 }

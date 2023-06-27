@@ -2,7 +2,7 @@ import "./skills-sec.css";
 import Section from "../../Layout/Section/Section";
 const SkillsSec = () => {
   return (
-    <Section title="Strengths" id="skills">
+    <Section title="Skills" id="skills">
       <div className="skills-sec__sub-section">
         <h1 className="skills-sec__sub-section__title">Frontend Skills</h1>
         <div className="skills-sec__skills">
@@ -67,7 +67,8 @@ const SkillsSec = () => {
             className="skills-sec__skills__images"
           />
         </div>
-      </div>{" "}
+      </div>
+      <p> TEC: Technical Knowlage | EXP: Experience | COD: Coding Skills | DEB: Debugging Skill | DOC: Documentaion Skills | TST: Testing Skills</p>
     </Section>
   );
 };
