@@ -1,0 +1,23 @@
+.skills-sec__sub-section{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills-sec__sub-section__title{
+    align-self: center;
+
+}
+.skills-sec__skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.skills-sec__skills__images{
+height: 55vh;
+
+}
+

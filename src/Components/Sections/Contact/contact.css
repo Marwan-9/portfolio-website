@@ -1,0 +1,31 @@
+.conatct__body{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 75vw;
+    padding: 0 5%;
+}
+
+.contact__body_section{
+    display: flex;
+    flex-direction: column;
+}
+.conatct__email,.contact__phone{
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.contact__value{
+    align-self: center;
+    color: #0064c7;
+    text-decoration: none;
+}
+.contact__social{
+    display: flex;
+    width: 30%;
+    margin: 5px auto;
+    margin-top: 20px;;
+    justify-content: center;
+    align-self: center;
+}
+

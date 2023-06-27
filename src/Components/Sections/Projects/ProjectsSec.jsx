@@ -1,12 +1,21 @@
-import "./projects-sec.css"
+import "./projects-sec.css";
 import Section from "../../Layout/Section/Section";
 import ProjectCard from "../../ProjectCard/ProjectCard";
+import projects from "../../../Data/ProjectsData";
 const ProjectsSec = () => {
-    return(
-        <Section title="Projects">
-            <ProjectCard title="Project 1" image="" desc={["dasdasd","adnsalkd","adnjalksdmas"]} labels={["React", "CSssssssssssssssssS", "HTML", "sdas", "ASdn"]}/>
-        </Section>
-    )
-}
+  return (
+    <Section title="Recent Projects" id="projects">
+      {projects.map(project => 
+        <ProjectCard
+          title={project.Title}
+          image={project.Image}
+          desc={project.Description}
+          labels={project.Labels}
+          links={project.Links}
+        />
+      )}
+    </Section>
+  );
+};
 
-export default ProjectsSec; 
+export default ProjectsSec;

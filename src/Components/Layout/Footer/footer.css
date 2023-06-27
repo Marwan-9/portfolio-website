@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-top: 1px solid #eaeaea;
+  margin-top: 3rem;
+}
+.footer__body{
+    margin: 0.75rem;
+    font-size: 17px;
+}
+
+.footer__hyperlink {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer__hyperlink:hover {
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 0 0.05rem white;
+}

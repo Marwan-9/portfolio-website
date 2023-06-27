@@ -1,13 +1,28 @@
 .main-section {
   width: 65vw;
-  height: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 35vh;
+  margin-top: 5vh;
   align-self: center;
-  margin-bottom: 300px;
+
 }
 
 .main-section__picture {
-  scale:5;
+  width: 55%;
+}
+
+@media only screen and (max-width: 1260px) {
+  .main-section {
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .main-section__picture {
+    width: 180%;
+    margin-left: 25%;
+  }
+  
 }
