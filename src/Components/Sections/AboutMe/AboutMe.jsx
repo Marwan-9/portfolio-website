@@ -4,12 +4,12 @@ const AboutMe = () => {
   return (
     <Section title="About Me" id="about">
       <p className="about-me__body">
-        Senior engineering student who currently pursing bachelor’s degree from
-        Cairo University with major of computer engineering, and minor of
-        communication engineering. Mainly interested in web and software
+        A senior engineering student who currently pursuing a bachelor’s degree
+        from Cairo University with a major in computer engineering and a minor
+        in communication engineering. Mainly interested in web and software
         development fields, always working on enhancing my skills and experience
-        in those wide fields by getting small jobs, internships, and workshops.
-        <br/> <br/> 
+        in those wide fields by getting small jobs and internships.
+        <br /> <br />
         Throughout my academic career, I have worked on web development projects
         using ReactJS, HTML, CSS, and JavaScript to create dynamic and
         responsive user interfaces for complex web applications, also beside the
